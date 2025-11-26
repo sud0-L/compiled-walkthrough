@@ -66,7 +66,7 @@ __abi_tag
 
 ```
 
-Off the bat, what stands out to me is the line:
+Off the bat, what stands out is the line:
 
 ```bash
 
@@ -78,7 +78,7 @@ It also looks like the program output's 'Correct' if the password is correctly e
 
 Let's run the exectuable:
 
-< 3. trying password>
+<img width="605" height="78" alt="3  trying password" src="https://github.com/user-attachments/assets/db668926-a80b-4cf4-853b-e379f4ac39ac" />
 
 Trying the provided line earlier yields no results, as expected. 
 
@@ -88,11 +88,11 @@ Let's boot the exectuable up into Ghidra for analysis.
 
 Let's navigate to the main logic of the code. 
 
-< 4. function in ghdira >
+<img width="556" height="375" alt="4  function in ghidra" src="https://github.com/user-attachments/assets/e7735362-3b0e-4c5f-9335-f211b573d9c4" />
 
 Based on the logic above, it looks like if we replace '%sCTF' with '_nit' it should allow us in. 
 
-< 5. do you even innit.png > 
+<img width="582" height="82" alt="5 doyoueveninit" src="https://github.com/user-attachments/assets/40caf214-a04c-4035-bc2d-34e32a749ef6" />
 
 The password is correct, and that is also our flag. 
 
