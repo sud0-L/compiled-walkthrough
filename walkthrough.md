@@ -90,7 +90,7 @@ Let's navigate to the main logic of the code.
 
 <img width="556" height="375" alt="4  function in ghidra" src="https://github.com/user-attachments/assets/e7735362-3b0e-4c5f-9335-f211b573d9c4" />
 
-Based on the logic above, it looks like if we replace '%sCTF' with '_nit' it should allow us in. 
+Based on the logic above, it looks like if we replace '%sCTF' with '_init' it should allow us in. 
 
 <img width="582" height="82" alt="5 doyoueveninit" src="https://github.com/user-attachments/assets/40caf214-a04c-4035-bc2d-34e32a749ef6" />
 
